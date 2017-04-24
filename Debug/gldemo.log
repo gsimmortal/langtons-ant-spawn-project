@@ -1,0 +1,158 @@
+﻿Build started 05/04/2017 18:54:15.
+     1>Project "E:\DEV STUFF\PERSONAL PROJECT BUILDS\Limitless Generation\Personal Project Current Build\gldemo.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\gldemo.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\gldemo.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Ant.cpp gldemo.cpp glPrint.cpp GridInterface.cpp MakeGrid.cpp shader_setup.cpp Sun.cpp texture_loader.cpp
+         texture_loader.cpp
+         Sun.cpp
+         shader_setup.cpp
+         MakeGrid.cpp
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gstructs.h(40): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gstructs.h(41): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gstructs.h(42): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gstructs.h(43): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.h(16): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(14): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(18): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(22): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(43): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(55): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(56): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(63): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(69): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(73): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(80): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(102): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(109): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(115): warning C4305: '=' : truncation from 'double' to 'float'
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(123): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(130): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(136): warning C4305: '=' : truncation from 'double' to 'float'
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(145): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(152): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(158): warning C4305: '=' : truncation from 'double' to 'float'
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(166): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(173): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(179): warning C4305: '=' : truncation from 'double' to 'float'
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(199): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(211): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(212): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(216): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(217): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(221): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(222): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(226): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(227): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(231): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.cpp(278): warning C4018: '<' : signed/unsigned mismatch
+         GridInterface.cpp
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gstructs.h(40): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gstructs.h(41): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gstructs.h(42): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gstructs.h(43): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.h(16): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gridinterface.cpp(31): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gridinterface.cpp(33): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gridinterface.cpp(41): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gridinterface.cpp(42): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gridinterface.cpp(44): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gridinterface.cpp(48): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gridinterface.cpp(57): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gridinterface.cpp(68): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gridinterface.cpp(72): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gridinterface.cpp(81): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gridinterface.cpp(82): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gridinterface.cpp(88): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gridinterface.cpp(92): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gridinterface.cpp(93): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gridinterface.cpp(107): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gridinterface.cpp(127): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gridinterface.cpp(141): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gridinterface.cpp(142): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gridinterface.cpp(147): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gridinterface.cpp(170): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gridinterface.cpp(174): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gridinterface.cpp(174): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gridinterface.cpp(175): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gridinterface.cpp(175): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gridinterface.cpp(175): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gridinterface.cpp(176): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gridinterface.cpp(176): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gridinterface.cpp(176): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gridinterface.cpp(177): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gridinterface.cpp(179): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gridinterface.cpp(181): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+         glPrint.cpp
+         gldemo.cpp
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gstructs.h(40): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gstructs.h(41): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gstructs.h(42): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gstructs.h(43): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.h(16): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gldemo.cpp(151): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gldemo.cpp(162): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gldemo.cpp(163): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gldemo.cpp(164): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gldemo.cpp(165): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gldemo.cpp(205): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gldemo.cpp(227): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+         Ant.cpp
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gstructs.h(40): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gstructs.h(41): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gstructs.h(42): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\gstructs.h(43): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\makegrid.h(16): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(14): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(18): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(22): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(45): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(49): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(50): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(51): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(54): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(55): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(56): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(59): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(60): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(61): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(64): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(65): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(66): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(69): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(70): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(71): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(74): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(75): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(76): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(98): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(105): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(108): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(110): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(134): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(139): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(143): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(149): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(159): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(175): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(184): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(203): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\dev stuff\personal project builds\limitless generation\personal project current build\ant.cpp(217): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\DEV STUFF\PERSONAL PROJECT BUILDS\Limitless Generation\Personal Project Current Build\Debug\gldemo.exe" /INCREMENTAL /NOLOGO FreeImage\FreeImagePlus.lib windowscodecs.lib CoreStructures\CoreStructures.lib freeglut\freeglut.lib glew\glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\DEV STUFF\PERSONAL PROJECT BUILDS\Limitless Generation\Personal Project Current Build\Debug\gldemo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\DEV STUFF\PERSONAL PROJECT BUILDS\Limitless Generation\Personal Project Current Build\Debug\gldemo.lib" /MACHINE:X86 Debug\Ant.obj
+         Debug\gldemo.obj
+         Debug\glPrint.obj
+         Debug\GridInterface.obj
+         Debug\MakeGrid.obj
+         Debug\shader_setup.obj
+         Debug\stdafx.obj
+         Debug\Sun.obj
+         Debug\texture_loader.obj
+     1>CoreStructures.lib(GUMemory.obj) : warning LNK4204: 'E:\DEV STUFF\PERSONAL PROJECT BUILDS\Limitless Generation\Personal Project Current Build\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+         gldemo.vcxproj -> E:\DEV STUFF\PERSONAL PROJECT BUILDS\Limitless Generation\Personal Project Current Build\Debug\gldemo.exe
+     1>Done Building Project "E:\DEV STUFF\PERSONAL PROJECT BUILDS\Limitless Generation\Personal Project Current Build\gldemo.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.80
